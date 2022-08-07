@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.JJ div {
+    width: 300px;
+    margin: 20px auto;
+}
+.JJ div  input{
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    background-color: #fbfbfb;
+}
+.JJ div  input:focus{
+    outline: none;
+}
+.JJ div .progress {
+    background-color: #2196f3;
+    height: 2px;
+    width: 0 ;
+    display: block;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+}
+.JJ div .counter {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    padding: 5px;
+}
+.JJ div .zero {
+    font-weight: bold;
+    color: red;
+}
